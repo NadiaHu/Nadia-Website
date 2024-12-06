@@ -1,0 +1,226 @@
+/* General body and background */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffab00;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #ff6f00;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+    background-color: #ff6f00;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover {
+    background-color: #ff8f00;
+    transform: translateY(-3px);
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+/* Project Title and Description */
+h2 {
+    font-size: 2.5em;
+    color: #ff6f00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Project Embed */
+iframe {
+    border-radius: 15px;
+    border: 5px solid #ff6f00;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffab00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Button Style */
+button {
+    background-color: #ff6f00;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8f00;
+    transform: scale(1.1);
+}
+
+/* Additional Styles for Fun */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #ffeb3b;
+    color: #333;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* For Card-like Elements */
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Project 1 Specific Styling */
+.project1-page {
+    background-image: url('./images/night-sky.jpg'); /* 夜空背景图片 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    background-position: center;
+    background-attachment: fixed; /* 背景固定 */
+    color: white; /* 文字颜色为白色 */
+}
+
+/* Header Styling for Project 1 */
+.project1-page header {
+    background-color: rgba(0, 31, 61, 0.8); /* 半透明深蓝色背景 */
+}
+
+/* Navigation Styling for Project 1 */
+.project1-page nav ul li {
+    background-color:  white; /* 按钮背景色 */
+    color: rgba(0, 31, 61, 0.8);
+}
+
+.project1-page nav ul li:hover {
+    background-color:rgba(0, 31, 61, 0.8);
+    transform: translateY(-3px);
+}
+
+/* Main Content for Project 1 */
+.project1-page main {
+    padding: 40px 20px;
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.project1-page h2 {
+    font-size: 2.5em;
+    color:  #dcdcdc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project1-page p {
+    font-size: 1.2em;
+    color: #dcdcdc; /* 柔和的浅灰色字体 */
+}
+
+/* Footer Styling for Project 1 */
+.project1-page footer {
+    background-color: rgba(0, 31, 61, 0.8); /* 半透明深蓝色背景 */
+}
+
+/* Ensure iframe borders remain the same */
+.project1-page iframe {
+    border-radius: 15px;
+    border: 5px solid #dcdcdc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional button and element adjustments */
+.project1-page button {
+    background-color:  rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.project1-page button:hover {
+    background-color:rgba(0, 31, 61, 0.8);
+}
+
+/* Project Description Styling */
+#project-description {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#project-description h3 {
+    font-size: 2em;
+    color: #ff6f00; /* 标题使用橙色，与其他标题一致 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#project-description p {
+    font-size: 1.2em;
+    color: #333; /* 柔和的深灰色字体 */
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px; /* 设置文字的最大宽度 */
+}
+/* Styling for Project Description box in project1.html */
+.description-box {
+    border: 3px dashed white; /* 白色虚线边框 */
+    border-radius: 10px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    margin: 20px auto; /* 上下留白，居中显示 */
+    max-width: 80%; /* 限制宽度，保持页面美观 */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景，使文字和边框突出 */
+    color: white; /* 确保文字颜色可读 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 添加一些阴影以增强视觉效果 */
+}
+
